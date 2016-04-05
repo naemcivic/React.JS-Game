@@ -16,6 +16,7 @@ var ConfirmBattleContainer = React.createClass({
 
   componentDidMount: function () {
     var query = this.props.location.query;
+    console.log(query)
     console.log('componentDidMount')
       githubHelpers.getPlayersInfo([query.playerOne, query.playerTwo])
       .then(function(players){
@@ -30,7 +31,7 @@ handleInitiateBattle: function () {
   this.context.router.push({
     pathname: '/results',
     state: {
-      playerInfo: this.state.playersInfo
+      playersInfo: this.state.playersInfo
     }
   })
 },
