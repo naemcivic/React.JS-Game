@@ -6,16 +6,16 @@ status.
 
 
 * Areas explored
-* Webpack
-* Building UI with pure functions
-* Components and Props
-* React Router
-* React Link
-* Context             
-* Stateless Functional Components
-* Life Cycle Events
-* Promise
-* Axios
+  * Webpack
+  * Building UI with pure functions
+  * Components and Props
+  * React Router
+  * React Link
+  * Context             
+  * Stateless Functional Components
+  * Life Cycle Events
+  * Promise
+  * Axios
 
 ![alt text](markdown/intro2.png?raw=true "Logo Title Text 1")
 
