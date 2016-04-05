@@ -1,5 +1,5 @@
-![alt text](https://github.com/naemcivic/React.JS-Game/markdown/intro1.png?raw=true "Logo Title Text 1")
-![alt text](https://github.com/naemcivic/React.JS-Game/markdown/intro2.png?raw=true "Logo Title Text 1")
+![alt text](markdown/intro1.png?raw=true "Logo Title Text 1")
+![alt text](markdown/intro2.png?raw=true "Logo Title Text 1")
 
 **GitHub Battle**: A fun single page application in React.JS. Players enter their
 GitHub username to battle it out by comparing stars, followers and repositories
