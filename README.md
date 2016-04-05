@@ -2,7 +2,7 @@
 GitHub username to battle it out by comparing stars, followers and repositories
 status.
 
-![alt text](markdown/intro1.png?raw=true "Logo Title Text 1")
+![alt text](markdown/intro3.png?raw=true "Logo Title Text 1")
 
 
 * Areas explored
