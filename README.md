@@ -16,6 +16,9 @@ status.
   * Life Cycle Events
   * Promise
   * Axios
+  * React Router Transition Animation
+  * Webpack's CSS Loader
+
 
 ![alt text](markdown/intro2.png?raw=true "Logo Title Text 1")
 
