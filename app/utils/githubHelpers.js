@@ -8,10 +8,9 @@ function getUserInfo (username) {
   return axios.get('https://api.github.com/users/' + username + param);
 }
 
-function getRepos (username) {
+function getRepos(username) {
   return axios.get('https://api.github.com/users/' + username + '/repos' + param + '&per_page=100');
 }
-
 function getTotalStars (repos) {
   return repos.data.reduce((prev, current) =>  prev + current.stargazers_count, 0)
 }
