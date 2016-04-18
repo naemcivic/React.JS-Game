@@ -1,23 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Results from '../components/Results'
 import { battle } from '../utils/githubHelpers'
 
-const ResultsContainer = React.createClass({
-  getInitialState () {
-    return {
+class ResultsContainer extends Component {
+  constructor () {
+    super()
+    this.state = {
       isLoading: true,
       scores: []
     }
-  },
+  }
   componentDidMount () {
     battle(this.props.location.state.playersInfo)
       .then((scores) => {
         this.setState({
-          scores: scores,
+          scores,
           isLoading: false
         })
       })
-  },
+  }
   render () {
     return (
       <Results
@@ -26,6 +27,6 @@ const ResultsContainer = React.createClass({
         scores={this.state.scores} />
     )
   }
-});
+}
 
 export default ResultsContainer
